@@ -27,9 +27,7 @@ module.exports = {
       // const user = await User.findById(context.currentUser.id).populate('Order')
       // console.log(user)
       let userOrders = orders.filter(o => o.user.id === context.currentUser.id)
-      const user = await User.findById(context.currentUser.id)
-
-      return { orders: userOrders, paymentInfo: user.paymentInfo }
+      return userOrders
     },
     getCart: async (root, args, context) => {
       const user = await User.findById(context.currentUser.id).populate({
@@ -171,8 +169,7 @@ module.exports = {
       return {
         id: addedOrder.id,
         confirmation: addedOrder.confirmation,
-        date: convertedDate,
-        paymentInfo: { ...paymentInfo }
+        date: convertedDate
       }
     }
   }
