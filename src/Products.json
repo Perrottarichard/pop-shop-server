@@ -1,0 +1,798 @@
+[
+  {
+    "type": "drink",
+    "brand": {
+      "name": "Coca Cola",
+      "countryOfOrigin": "USA",
+      "contactNumber": 5555555555,
+      "contactEmail": "customerservice@cocacola.com"
+    },
+    "flavors": [
+      "classic",
+      "orange",
+      "lemon-lime",
+      "cherry",
+      "vanilla",
+      "diet"
+    ],
+    "sizes": [
+      "300ml X24",
+      "500ml X12",
+      "2000ml X12"
+    ],
+    "prices": [
+      "14",
+      "12",
+      "32"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "drink",
+    "brand": {
+      "name": "Pepsi Cola",
+      "countryOfOrigin": "USA",
+      "contactNumber": 1111111111,
+      "contactEmail": "customerservice@pepsi.com"
+    },
+    "flavors": [
+      "original",
+      "orange",
+      "lemon-lime",
+      "cherry",
+      "vanilla",
+      "diet"
+    ],
+    "sizes": [
+      "300ml X24",
+      "500ml X12",
+      "2000ml X12"
+    ],
+    "prices": [
+      "14",
+      "12",
+      "32"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "drink",
+    "brand": {
+      "name": "Mountain Dew",
+      "countryOfOrigin": "USA",
+      "contactNumber": 9999999999,
+      "contactEmail": "customerservice@mountaindew.com"
+    },
+    "flavors": [
+      "citrus",
+      "lemon-lime",
+      "cherry",
+      "code red",
+      "diet"
+    ],
+    "sizes": [
+      "300ml X24",
+      "500ml X12",
+      "2000ml X12"
+    ],
+    "prices": [
+      "15",
+      "14",
+      "35"
+    ],
+    "inStock": true,
+    "internationalShipping": false
+  },
+  {
+    "type": "drink",
+    "brand": {
+      "name": "Dr. Pepper",
+      "countryOfOrigin": "USA",
+      "contactNumber": 2222222222,
+      "contactEmail": "customerservice@drpepper.com"
+    },
+    "flavors": [
+      "original",
+      "mystery",
+      "medicine"
+    ],
+    "sizes": [
+      "300ml X24",
+      "500ml X12",
+      "2000ml X12"
+    ],
+    "prices": [
+      "13",
+      "15",
+      "33"
+    ],
+    "inStock": true,
+    "internationalShipping": false
+  },
+  {
+    "type": "drink",
+    "brand": {
+      "name": "Sprite",
+      "countryOfOrigin": "USA",
+      "contactNumber": 123456789,
+      "contactEmail": "customerservice@sprite.com"
+    },
+    "flavors": [
+      "lemon-lime",
+      "diet",
+      "sugar-free"
+    ],
+    "sizes": [
+      "300ml X24",
+      "500ml X12",
+      "2000ml X12"
+    ],
+    "prices": [
+      "12",
+      "11",
+      "29"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "drink",
+    "brand": {
+      "name": "Fanta",
+      "countryOfOrigin": "Germany",
+      "contactNumber": 4534534534,
+      "contactEmail": "customerservice@fanta.com"
+    },
+    "flavors": [
+      "lemon-lime",
+      "diet",
+      "sugar-free",
+      "grape",
+      "cherry",
+      "kiwi",
+      "pineapple",
+      "orange",
+      "strawberry"
+    ],
+    "sizes": [
+      "300ml X24",
+      "500ml X12",
+      "2000ml X12"
+    ],
+    "prices": [
+      "14",
+      "12",
+      "32"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "drink",
+    "brand": {
+      "name": "ToniCol",
+      "countryOfOrigin": "Mexico",
+      "contactNumber": 112356789,
+      "contactEmail": "customerservice@ToniCol.com"
+    },
+    "flavors": [
+      "cream",
+      "vanilla"
+    ],
+    "sizes": [
+      "300ml X24",
+      "500ml X12",
+      "2000ml X12"
+    ],
+    "prices": [
+      "15",
+      "14",
+      "36"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "drink",
+    "brand": {
+      "name": "Guarana Antarctica",
+      "countryOfOrigin": "Brazil",
+      "contactNumber": 77756789,
+      "contactEmail": "customerservice@guaranaAntarctica.com"
+    },
+    "flavors": [
+      "guarana",
+      "high-energy"
+    ],
+    "sizes": [
+      "300ml X24",
+      "500ml X12",
+      "2000ml X12"
+    ],
+    "prices": [
+      "16",
+      "17",
+      "39"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "drink",
+    "brand": {
+      "name": "Inca Kola",
+      "countryOfOrigin": "Peru",
+      "contactNumber": 98765789,
+      "contactEmail": "customerservice@incakola.com"
+    },
+    "flavors": [
+      "lemon-lime",
+      "diet",
+      "bubblegum",
+      "pineapple",
+      "lime",
+      "vanilla"
+    ],
+    "sizes": [
+      "300ml X24",
+      "500ml X12",
+      "2000ml X12"
+    ],
+    "prices": [
+      "14",
+      "12",
+      "32"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "drink",
+    "brand": {
+      "name": "Irn Bru",
+      "countryOfOrigin": "Scotland",
+      "contactNumber": 432456789,
+      "contactEmail": "customerservice@irnbru.com"
+    },
+    "flavors": [
+      "medicine",
+      "bubblegum"
+    ],
+    "sizes": [
+      "300ml X24",
+      "500ml X12",
+      "2000ml X12"
+    ],
+    "prices": [
+      "19",
+      "17",
+      "40"
+    ],
+    "inStock": true,
+    "internationalShipping": false
+  },
+  {
+    "type": "drink",
+    "brand": {
+      "name": "Ramune",
+      "countryOfOrigin": "Japan",
+      "contactNumber": 888856789,
+      "contactEmail": "customerservice@ramune.com"
+    },
+    "flavors": [
+      "kimchi",
+      "teriyaki",
+      "wasabi",
+      "lemon"
+    ],
+    "sizes": [
+      "300ml X24",
+      "500ml X12",
+      "2000ml X12"
+    ],
+    "prices": [
+      "20",
+      "18",
+      "46"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "drink",
+    "brand": {
+      "name": "Boylans",
+      "countryOfOrigin": "USA",
+      "contactNumber": 663456789,
+      "contactEmail": "customerservice@boylans.com"
+    },
+    "flavors": [
+      "root beer",
+      "birch beer",
+      "cream",
+      "cherry"
+    ],
+    "sizes": [
+      "300ml X24",
+      "500ml X12",
+      "2000ml X12"
+    ],
+    "prices": [
+      "18",
+      "16",
+      "39"
+    ],
+    "inStock": true,
+    "internationalShipping": false
+  },
+  {
+    "type": "drink",
+    "brand": {
+      "name": "Ting",
+      "countryOfOrigin": "Jamaica",
+      "contactNumber": 123999789,
+      "contactEmail": "customerservice@ting.com"
+    },
+    "flavors": [
+      "grapefruit"
+    ],
+    "sizes": [
+      "300ml X24",
+      "500ml X12",
+      "2000ml X12"
+    ],
+    "prices": [
+      "14",
+      "12",
+      "32"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "drink",
+    "brand": {
+      "name": "Orangina",
+      "countryOfOrigin": "France",
+      "contactNumber": 88886789,
+      "contactEmail": "customerservice@orangina.com"
+    },
+    "flavors": [
+      "orange",
+      "citrus"
+    ],
+    "sizes": [
+      "300ml X24",
+      "500ml X12",
+      "2000ml X12"
+    ],
+    "prices": [
+      "14",
+      "12",
+      "32"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "drink",
+    "brand": {
+      "name": "Bundaberg",
+      "countryOfOrigin": "Australia",
+      "contactNumber": 848484848,
+      "contactEmail": "customerservice@bundaberg.com"
+    },
+    "flavors": [
+      "root beer",
+      "ginger",
+      "peach",
+      "blood orange",
+      "guava",
+      "diet ginger"
+    ],
+    "sizes": [
+      "300ml X24",
+      "500ml X12",
+      "2000ml X12"
+    ],
+    "prices": [
+      "20",
+      "20",
+      "46"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "TShirt",
+    "brand": {
+      "name": "Coca Cola",
+      "countryOfOrigin": "USA",
+      "contactNumber": 5555555555,
+      "contactEmail": "customerservice@cocacola.com"
+    },
+    "colors": [
+      "white",
+      "black",
+      "gray"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "prices": [
+      "10",
+      "11",
+      "13"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "TShirt",
+    "brand": {
+      "name": "Pepsi Cola",
+      "countryOfOrigin": "USA",
+      "contactNumber": 1111111111,
+      "contactEmail": "customerservice@pepsi.com"
+    },
+    "colors": [
+      "white",
+      "black",
+      "gray"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "prices": [
+      "10",
+      "11",
+      "13"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "TShirt",
+    "brand": {
+      "name": "Mountain Dew",
+      "countryOfOrigin": "USA",
+      "contactNumber": 9999999999,
+      "contactEmail": "customerservice@mountaindew.com"
+    },
+    "colors": [
+      "white",
+      "black",
+      "gray"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "prices": [
+      "10",
+      "11",
+      "13"
+    ],
+    "inStock": true,
+    "internationalShipping": false
+  },
+  {
+    "type": "TShirt",
+    "brand": {
+      "name": "Dr. Pepper",
+      "countryOfOrigin": "USA",
+      "contactNumber": 2222222222,
+      "contactEmail": "customerservice@drpepper.com"
+    },
+    "colors": [
+      "white",
+      "black",
+      "gray"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "prices": [
+      "10",
+      "11",
+      "13"
+    ],
+    "inStock": true,
+    "internationalShipping": false
+  },
+  {
+    "type": "TShirt",
+    "brand": {
+      "name": "Sprite",
+      "countryOfOrigin": "USA",
+      "contactNumber": 123456789,
+      "contactEmail": "customerservice@sprite.com"
+    },
+    "colors": [
+      "white",
+      "black",
+      "gray"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "prices": [
+      "10",
+      "11",
+      "13"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "TShirt",
+    "brand": {
+      "name": "Fanta",
+      "countryOfOrigin": "Germany",
+      "contactNumber": 4534534534,
+      "contactEmail": "customerservice@fanta.com"
+    },
+    "colors": [
+      "white",
+      "black",
+      "gray"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "prices": [
+      "10",
+      "11",
+      "13"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "TShirt",
+    "brand": {
+      "name": "ToniCol",
+      "countryOfOrigin": "Mexico",
+      "contactNumber": 112356789,
+      "contactEmail": "customerservice@ToniCol.com"
+    },
+    "colors": [
+      "white",
+      "black",
+      "gray"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "prices": [
+      "10",
+      "11",
+      "13"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "TShirt",
+    "brand": {
+      "name": "Guarana Antarctica",
+      "countryOfOrigin": "Brazil",
+      "contactNumber": 77756789,
+      "contactEmail": "customerservice@guaranaAntarctica.com"
+    },
+    "colors": [
+      "white",
+      "black",
+      "gray"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "prices": [
+      "10",
+      "11",
+      "13"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "TShirt",
+    "brand": {
+      "name": "Inca Kola",
+      "countryOfOrigin": "Peru",
+      "contactNumber": 98765789,
+      "contactEmail": "customerservice@incakola.com"
+    },
+    "colors": [
+      "white",
+      "black",
+      "gray"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "prices": [
+      "10",
+      "11",
+      "13"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "TShirt",
+    "brand": {
+      "name": "Irn Bru",
+      "countryOfOrigin": "Scotland",
+      "contactNumber": 432456789,
+      "contactEmail": "customerservice@irnbru.com"
+    },
+    "colors": [
+      "white",
+      "black",
+      "gray"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "prices": [
+      "10",
+      "11",
+      "13"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "TShirt",
+    "brand": {
+      "name": "Ramune",
+      "countryOfOrigin": "Japan",
+      "contactNumber": 888856789,
+      "contactEmail": "customerservice@ramune.com"
+    },
+    "colors": [
+      "white",
+      "black",
+      "gray"
+    ],
+    "sizes": [
+      "XS",
+      "M",
+      "L"
+    ],
+    "prices": [
+      "10",
+      "11",
+      "13"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "TShirt",
+    "brand": {
+      "name": "Boylans",
+      "countryOfOrigin": "USA",
+      "contactNumber": 663456789,
+      "contactEmail": "customerservice@boylans.com"
+    },
+    "colors": [
+      "white",
+      "black",
+      "gray"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "L"
+    ],
+    "prices": [
+      "10",
+      "11",
+      "13"
+    ],
+    "inStock": true,
+    "internationalShipping": false
+  },
+  {
+    "type": "TShirt",
+    "brand": {
+      "name": "Ting",
+      "countryOfOrigin": "Jamaica",
+      "contactNumber": 123999789,
+      "contactEmail": "customerservice@ting.com"
+    },
+    "colors": [
+      "white",
+      "black",
+      "gray"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "prices": [
+      "10",
+      "11",
+      "13"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "TShirt",
+    "brand": {
+      "name": "Orangina",
+      "countryOfOrigin": "France",
+      "contactNumber": 88886789,
+      "contactEmail": "customerservice@orangina.com"
+    },
+    "colors": [
+      "white",
+      "black",
+      "gray"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "prices": [
+      "10",
+      "11",
+      "13"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  },
+  {
+    "type": "TShirt",
+    "brand": {
+      "name": "Bundaberg",
+      "countryOfOrigin": "Australia",
+      "contactNumber": 848484848,
+      "contactEmail": "customerservice@bundaberg.com"
+    },
+    "colors": [
+      "white",
+      "black",
+      "gray"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "prices": [
+      "10",
+      "11",
+      "13"
+    ],
+    "inStock": true,
+    "internationalShipping": true
+  }
+]
