@@ -108,6 +108,7 @@ type Order {
   user: User
   confirmation: String
   date: String
+  paymentInfo: PaymentInfo
   id: ID
 }
 

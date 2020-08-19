@@ -166,7 +166,12 @@ module.exports = {
       user.cart = []
       await user.save()
       let convertedDate = new Date(addedOrder.date).getTime()
-      return { id: addedOrder.id, confirmation: addedOrder.confirmation, date: convertedDate }
+      return {
+        id: addedOrder.id,
+        confirmation: addedOrder.confirmation,
+        date: convertedDate,
+        paymentInfo: { ...paymentInfo }
+      }
     }
   }
 }
