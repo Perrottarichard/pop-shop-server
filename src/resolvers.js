@@ -27,7 +27,9 @@ module.exports = {
       // const user = await User.findById(context.currentUser.id).populate('Order')
       // console.log(user)
       let userOrders = orders.filter(o => o.user.id === context.currentUser.id)
-      return userOrders
+      const user = await User.findById(context.currentUser.id)
+
+      return { orders: userOrders, paymentInfo: user.paymentInfo }
     },
     getCart: async (root, args, context) => {
       const user = await User.findById(context.currentUser.id).populate({
