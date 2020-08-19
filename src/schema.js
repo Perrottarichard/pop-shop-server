@@ -107,6 +107,7 @@ type Order {
   totalPrice: Float
   user: User
   confirmation: String
+  date: String
   id: ID
 }
 
