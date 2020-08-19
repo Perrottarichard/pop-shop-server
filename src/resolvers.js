@@ -165,7 +165,8 @@ module.exports = {
       user.orders.push(addedOrder)
       user.cart = []
       await user.save()
-      return { id: addedOrder.id, confirmation: addedOrder.confirmation, date: addedOrder.date }
+      let convertedDate = new Date(addedOrder.date).getTime()
+      return { id: addedOrder.id, confirmation: addedOrder.confirmation, date: convertedDate }
     }
   }
 }
