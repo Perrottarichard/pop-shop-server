@@ -1,6 +1,6 @@
 # Pop-Shop Demo (server)
 
-This project is the server side of a demo, full-stack Typescript/NodeJS e-commerce web app.
+This project is the server side of a demo, full-stack Typescript/NodeJS/MongoDB e-commerce web app.
 
 The server is hosted at:
 https://pop-shop-server.herokuapp.com
@@ -13,17 +13,12 @@ Although arbitrary, the products are an assortment of popular soft drinks from a
 ## Core Technologies
 | Technology  | For |
 | ------------| -------|
-| Apollo Client | state management, data fetching, caching |
+| Apollo Server | serve data |
 | GraphQL | data management |
-| React Router | routing |
-| Material UI | styling |
+| MongoDB Atlas | cloud data storage |
+| Mongoose | Object Data Modeling |
 
-## Client Features
-* Token authentication / caching
-* Pre-filled forms at checkout using data from previous purchase
-* 'Deals of the Day' promotion countdown
-* Recommended products based on user's chosen flavor
-* Search products by brand or flavor
-* Sort products by price or alphabetically
-* View recent orders
-* Add / remove items from cart
+## Server Features
+* Token generation
+* Password encryption
+* GQL query and mutation management
