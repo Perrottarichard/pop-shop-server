@@ -19,4 +19,4 @@ https://pop-shop.netlify.app
 ## Server Features
 * Token generation and authentication
 * Password encryption
-* GQL query and mutation management
+* GQL schema, query, mutation management
