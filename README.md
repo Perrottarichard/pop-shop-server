@@ -8,6 +8,8 @@ https://pop-shop-server.herokuapp.com
 The client is hosted at:
 https://pop-shop.netlify.app
 
+View the client repository here: https://github.com/Perrottarichard/pop-shop-client
+
 ## Core Technologies
 | Technology  | For |
 | ------------| -------|
