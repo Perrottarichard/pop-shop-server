@@ -1,4 +1,4 @@
-// const mongoose = require('mongoose')
+
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcrypt')
 const Product = require('./models/Product')
@@ -24,8 +24,6 @@ module.exports = {
     },
     getOrders: async (root, args, context) => {
       const orders = await Order.find({}).populate('user cart.item')
-      // const user = await User.findById(context.currentUser.id).populate('Order')
-      // console.log(user)
       let userOrders = orders.filter(o => o.user.id === context.currentUser.id)
       return userOrders
     },

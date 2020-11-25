@@ -1,4 +1,4 @@
-const { ApolloServer, UserInputError } = require('apollo-server')
+const { ApolloServer } = require('apollo-server')
 require('dotenv').config()
 const jwt = require('jsonwebtoken')
 const mongoose = require('mongoose')
